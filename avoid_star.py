@@ -15,10 +15,10 @@ pygame.display.set_caption("별 피하기 게임")
 clock = pygame.time.Clock()
 
 # 배경 이미지 불러오기
-background = pygame.image.load("C:/Users/thgml/OneDrive/바탕 화면/mygame/background2.png")
+background = pygame.image.load("background2.png")
 
 # 캐릭터 불러오기
-character = pygame.image.load("C:/Users/thgml/OneDrive/바탕 화면/mygame/character.png")
+character = pygame.image.load("cat.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -33,7 +33,7 @@ character_speed = 0.3
 enemy_speed = 0.5
 
 # 적 불러오기
-enemy = pygame.image.load("C:/Users/thgml/OneDrive/바탕 화면/mygame/star.png")
+enemy = pygame.image.load("shooting-star.png")
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
